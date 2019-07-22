@@ -2,5 +2,5 @@ public class SampleGit{
 
 public static List<Account> getRecords(){
 List<Account> accs = [select id,name from Account]
-return accs;
+return ;
 }
